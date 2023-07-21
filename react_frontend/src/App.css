@@ -1,0 +1,94 @@
+/* App.css */
+
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  padding: 20px;
+  background-color: #f7f7f7;
+}
+
+h1 {
+  margin: 0;
+  padding: 10px 0;
+  font-size: 24px;
+  color: #333;
+}
+
+/* File Upload styles */
+input[type="file"] {
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-right: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Data Table styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+th,
+td {
+  padding: 12px;
+  border: 1px solid #ccc;
+  text-align: center;
+  width: 150px; /* Fixed width for each table cell */
+}
+
+th {
+  background-color: #092849;
+  color: #fff;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tbody tr:hover {
+  background-color: #e1e1e1;
+}
+
+/* Apply contrasting colors to improve readability */
+td {
+  background-color: #f86c6c;
+  color: #333;
+}
+
+/* Highlight table header on hover for better user interaction */
+thead th:hover {
+  background-color: #0056b3;
+  transition: background-color 0.3s ease;
+}
+
+/* Add box-shadow on button hover for better interaction */
+button:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease;
+}
+
+/* Add some spacing between table rows */
+tbody tr + tr {
+  margin-top: 5px;
+}
