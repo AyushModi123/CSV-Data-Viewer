@@ -1,0 +1,5 @@
+fastapi==0.100.0
+mysql_connector_repackaged==0.3.1
+pandas==2.0.3
+uvicorn==0.23.1
+python-dotenv=1.0.0
