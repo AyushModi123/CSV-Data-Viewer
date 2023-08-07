@@ -1,7 +1,7 @@
-# Invsto_Assignment
+# CSV Data Viewer
 Used Python to insert data into the MySQL database.
 
-Build a simple app with React frontend and FastAPI backend. The user has two options:
+A simple app with React frontend and FastAPI backend. The user has two options:
 
 a. Upload Data: By clicking this button, the user should upload the CSV data and with the help of Rest APIs, the FastAPI backend inserts the data in the DB.
 
